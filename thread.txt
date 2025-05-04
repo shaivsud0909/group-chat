@@ -1,0 +1,6 @@
+socket: send recieve data
+serversocket: accept clinet connenction
+
+ServerSocket serverSocket = new ServerSocket(1234); // Listen on port 1234
+Socket socket = serverSocket.accept(); // Wait for client connection
+
